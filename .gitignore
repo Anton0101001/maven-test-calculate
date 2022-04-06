@@ -46,4 +46,5 @@ out/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**
-target/
+###add###
+/target/
