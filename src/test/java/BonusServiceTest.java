@@ -60,4 +60,31 @@ class BonusServiceTest {
         assertEquals(expected, actual);
     }
 
+    @Test
+    void shouldCalculateForRegisteredAndOverLimit() {
+        BonusService service = new BonusService();
+        long amount = 10_555_00;
+        boolean registered = true;
+        long expected = 500;
+
+
+        long actual = service.calculate(amount, registered);
+
+
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    void shouldCalculateForUnderRegisteredAndOverLimit() {
+        BonusService service = new BonusService();
+        long amount = 13_555_13;
+        boolean registered = true;
+        long expected = 500;
+
+
+        long actual = service.calculate(amount, registered);
+
+
+        assertEquals(expected, actual);
+    }
 }
