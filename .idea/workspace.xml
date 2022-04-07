@@ -7,6 +7,7 @@
     <list default="true" id="48f8b373-9281-4a23-9794-f26da7482759" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BonusServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BonusServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/BonusServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/BonusServiceTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-BonusServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-BonusServiceTest.xml" afterDir="false" />
@@ -69,7 +70,7 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BonusServiceTest">
+  <component name="RunManager" selected="JUnit.BonusServiceTest.calculate">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="bonus-calculate" />
@@ -108,9 +109,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BonusServiceTest.calculate" />
         <item itemvalue="JUnit.BonusServiceTest" />
         <item itemvalue="JUnit.BonusServiceTest.shouldCalculateRegisteredAndBonus" />
-        <item itemvalue="JUnit.BonusServiceTest.calculate" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
