@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48f8b373-9281-4a23-9794-f26da7482759" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BonusServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BonusServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/BonusServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/BonusServiceTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-BonusServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-BonusServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BonusServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BonusServiceTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
