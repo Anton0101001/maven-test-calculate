@@ -1,5 +1,5 @@
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class BonusServiceTest {
 
@@ -36,13 +36,13 @@ public class BonusServiceTest {
     }
 
     @org.junit.jupiter.api.Test
-    void shouldCalculateForUnderRegisteredAndUnderLimit() {
+    void shouldCalculateForUnderUnRegisteredAndUnderLimit() {
         BonusService service = new BonusService();
 
         // подготавливаем данные:
-        long amount = 15_000_000;
-        boolean registered = true;
-        long expected = 500;
+        long amount = 1000_60;
+        boolean registered = false;
+        long expected = 10;
 
         // вызываем целевой метод:
         long actual = service.calculate(amount, registered);
@@ -53,12 +53,12 @@ public class BonusServiceTest {
     }
 
     @org.junit.jupiter.api.Test
-    void shouldCalculateForUnderRegisteredAndOverLimit() {
+    void shouldCalculateForUnderUnRegisteredAndOverLimit() {
         BonusService service = new BonusService();
 
         // подготавливаем данные:
         long amount = 18_000_000;
-        boolean registered = true;
+        boolean registered = false;
         long expected = 500;
 
         // вызываем целевой метод:
